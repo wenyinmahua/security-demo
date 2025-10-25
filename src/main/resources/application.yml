@@ -10,7 +10,7 @@ spring:
     active: dev
 
 
-  security:
-    user:
-      name: admin
-      password: admin123
+#  security:
+#    user:
+#      name: admin
+#      password: admin123
