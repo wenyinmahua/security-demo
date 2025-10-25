@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: security-demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3307/security-demo?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+  profiles:
+    active: dev
+
+
+  security:
+    user:
+      name: admin
+      password: admin123
